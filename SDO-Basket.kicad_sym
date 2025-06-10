@@ -31740,7 +31740,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SDO-Basket:Relay_SPDT_Hamlin_HE3321C1200"
 			(at 0 -6.35 0)
 			(effects
 				(font
@@ -31793,7 +31793,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Relay*DPDT*NEC*MR62"
+		(property "ki_fp_filters" "Relay*SPDT*Hamlin"
 			(at 0 0 0)
 			(effects
 				(font
