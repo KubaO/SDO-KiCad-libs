@@ -1,10 +1,10 @@
-(footprint "LED_Harvatek_D3.0mm_Horizontal"
+(footprint "LED_Harvatek_D3.0mm_Horizontal_2V"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 1.27 -2.54 0)
+		(at 1.2 -5.2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "703ae8e6-8ddd-4b7e-8de3-e0f49959721a")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "LED_Harvatek_D3.0mm_Horizontal"
+	(property "Value" "LED_Harvatek_D3.0mm_Horizontal_2V"
 		(at 1.27 8.763 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d37caa9d-a624-4ff3-846d-0c52c4bca599")
+		(uuid "c220af40-504a-4fcd-b8de-34169495329b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "21542a7d-f28c-4636-a8f7-32573c902d99")
+		(uuid "843ceff5-c0ae-4cbb-8bbb-922bc739949e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,8 +53,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -1.143 -1.778)
-		(end 3.683 -1.778)
+		(start -0.993 -4.1)
+		(end 3.533 -4.1)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -63,8 +63,8 @@
 		(uuid "b37c350d-0c00-4fa9-ab6a-5cb7c41347a5")
 	)
 	(fp_line
-		(start -1.143 4.826)
-		(end -1.143 -1.778)
+		(start -0.993 5)
+		(end -0.993 -4.1)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -73,8 +73,8 @@
 		(uuid "324ce0a7-f3bc-4a24-a751-331e1f982479")
 	)
 	(fp_line
-		(start 3.683 -1.778)
-		(end 3.683 4.826)
+		(start 3.533 -4.1)
+		(end 3.533 5)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -83,8 +83,8 @@
 		(uuid "80473e31-ef89-45c2-99c8-c365d04b673e")
 	)
 	(fp_line
-		(start 3.683 4.826)
-		(end -1.143 4.826)
+		(start 3.533 5)
+		(end -0.993 5)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -93,18 +93,8 @@
 		(uuid "15ca5cc9-c2d9-4280-88e5-0dd67c9a21eb")
 	)
 	(fp_line
-		(start -1.03 -1.7)
-		(end 3.57 -1.7)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "3fc0bc4b-88cf-4010-afa4-c50a9c50d0d0")
-	)
-	(fp_line
-		(start -1.03 4.7)
-		(end -1.03 -1.7)
+		(start -0.88 5)
+		(end -0.88 -4)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -113,8 +103,8 @@
 		(uuid "ac11893b-745c-4f95-a782-518de9da2806")
 	)
 	(fp_line
-		(start -0.23 4.7)
-		(end -0.23 6.2)
+		(start -0.23 5)
+		(end -0.23 6)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -123,8 +113,8 @@
 		(uuid "c6645fae-c97f-452d-8567-36c84573f304")
 	)
 	(fp_line
-		(start 2.77 4.7)
-		(end 2.77 6.2)
+		(start 2.77 5)
+		(end 2.77 6)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -133,8 +123,18 @@
 		(uuid "75163f7a-6a2e-49ba-8b81-9b0ce88ef27c")
 	)
 	(fp_line
-		(start 3.57 -1.7)
-		(end 3.57 4.7)
+		(start 3.42 -4)
+		(end -0.88 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "11d056a9-3430-41cb-a8d6-e2c2e949fbc9")
+	)
+	(fp_line
+		(start 3.42 -4)
+		(end 3.42 5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -143,8 +143,8 @@
 		(uuid "cab004a0-848a-48cc-8057-dca92f0a3d00")
 	)
 	(fp_line
-		(start 3.57 4.7)
-		(end -1.03 4.7)
+		(start 3.42 5)
+		(end -0.88 5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -153,9 +153,9 @@
 		(uuid "464e410b-946c-4235-aaa1-1b10ad20e553")
 	)
 	(fp_arc
-		(start 2.77 6.2)
-		(mid 1.27 7.7)
-		(end -0.23 6.2)
+		(start 2.77 6)
+		(mid 1.27 7.5)
+		(end -0.23 6)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -175,23 +175,39 @@
 		)
 	)
 	(pad "1" thru_hole rect
+		(at 0 -2.54)
+		(size 1.651 1.651)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "529929ea-bc9c-4220-9595-504f826125ce")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 -2.54)
+		(size 1.651 1.651)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "79fb0e6e-4ccd-420d-a604-0b2ea615d11e")
+	)
+	(pad "3" thru_hole circle
 		(at 0 0)
-		(size 1.778 1.778)
+		(size 1.651 1.651)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "ae9df938-48ff-4bcd-900a-ea4beca40306")
 	)
-	(pad "2" thru_hole circle
+	(pad "4" thru_hole circle
 		(at 2.54 0)
-		(size 1.778 1.778)
+		(size 1.651 1.651)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "8126848f-e2fb-460d-bc88-2ca3b61a5759")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../SDO-KiCad-libs/SDO-Basket.pretty/LED_Harvatek_D3.0mm_Horizontal.stp"
+	(model "${KIPRJMOD}/../../SDO-KiCad-libs/SDO-Basket.pretty/LED_Harvatek_D3.0mm_Horizontal_2V.stp"
 		(offset
 			(xyz 0 0 0)
 		)

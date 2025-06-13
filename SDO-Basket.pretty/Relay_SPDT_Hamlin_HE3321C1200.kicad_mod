@@ -51,6 +51,18 @@
 			)
 		)
 	)
+	(property "BotReference" "${REFERENCE}"
+		(at -3.81 0 90)
+		(layer "B.SilkS")
+		(uuid "98017020-59a1-432a-9d01-727d6e66b116")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
 	(attr through_hole)
 	(fp_line
 		(start -2.6622 4.0592)
