@@ -51,6 +51,17 @@
 			)
 		)
 	)
+	(property "BotReference" "${REFERENCE}"
+		(at 7.62 0 90)
+		(layer "B.SilkS")
+		(uuid "c79f1568-fd96-4740-87fb-ad8e111166e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
 	(fp_line
 		(start -2.4 2.9)
