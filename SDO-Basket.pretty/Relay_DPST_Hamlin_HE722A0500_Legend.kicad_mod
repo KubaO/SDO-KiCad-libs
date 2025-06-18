@@ -1,4 +1,4 @@
-(footprint "Relay_DPST_Hamlin_HE722A0500"
+(footprint "Relay_DPST_Hamlin_HE722A0500_Legend"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Relay_DPST_Hamlin_HE722A0500"
+	(property "Value" "Relay_DPST_Hamlin_HE722A0500_Legend"
 		(at 3.81 18.63 0)
 		(layer "F.Fab")
 		(uuid "90a09b6e-0072-404a-b81d-e958c6ca746e")
@@ -54,7 +54,7 @@
 		)
 	)
 	(property "BotReference" "${REFERENCE}"
-		(at 3.81 -3.556 0)
+		(at 3.81 7.62 90)
 		(layer "B.SilkS")
 		(uuid "dd58c2d7-9eae-45b4-90a2-b7af2e5c96a6")
 		(effects
@@ -63,6 +63,104 @@
 				(thickness 0.15)
 			)
 			(justify mirror)
+		)
+	)
+	(property "p1" "p1"
+		(at 0.762 0 0)
+		(layer "B.SilkS")
+		(uuid "cedfd4b2-61ce-4936-9113-1240e92aee5a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right mirror)
+		)
+	)
+	(property "p2" "p2"
+		(at 0.762 2.54 0)
+		(layer "B.SilkS")
+		(uuid "e705b650-14ff-4921-895f-d063fee77353")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right mirror)
+		)
+	)
+	(property "p6" "p6"
+		(at 0.762 12.7 0)
+		(layer "B.SilkS")
+		(uuid "b217d64a-eca9-48bd-aeae-b578aebd45ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right mirror)
+		)
+	)
+	(property "p7" "p7"
+		(at 0.762 15.24 0)
+		(layer "B.SilkS")
+		(uuid "95654d4d-dc57-4938-b98f-a373787d154b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right mirror)
+		)
+	)
+	(property "p8" "p8"
+		(at 6.858 15.24 0)
+		(layer "B.SilkS")
+		(uuid "ab1c47a8-9dfe-47ad-870d-a2d7f13324f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left mirror)
+		)
+	)
+	(property "p9" "p9"
+		(at 6.858 12.7 0)
+		(layer "B.SilkS")
+		(hide yes)
+		(uuid "2729df23-e00c-4f0d-aa75-f855ff27bb1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left mirror)
+		)
+	)
+	(property "p13" "p13"
+		(at 6.858 2.54 0)
+		(layer "B.SilkS")
+		(hide yes)
+		(uuid "93fdcf84-04c4-4537-99c5-c6604b73b47c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left mirror)
+		)
+	)
+	(property "p14" "p14"
+		(at 6.858 0 0)
+		(layer "B.SilkS")
+		(uuid "fcd18114-898b-4423-b82f-3397ad6f840f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left mirror)
 		)
 	)
 	(attr through_hole)

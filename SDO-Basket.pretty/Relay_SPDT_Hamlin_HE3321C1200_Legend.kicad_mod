@@ -1,4 +1,4 @@
-(footprint "Relay_SPDT_Hamlin_HE3321C1200"
+(footprint "Relay_SPDT_Hamlin_HE3321C1200_Legend"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Relay_SPDT_Hamlin_HE3321C1200"
+	(property "Value" "Relay_SPDT_Hamlin_HE3321C1200_Legend"
 		(at 10.16 5.08 0)
 		(layer "F.Fab")
 		(uuid "167e1867-01fd-4d9a-8861-3aa067e74350")
@@ -61,6 +61,66 @@
 				(thickness 0.15)
 			)
 			(justify mirror)
+		)
+	)
+	(property "p1" "p1"
+		(at 0 1.143 90)
+		(layer "B.SilkS")
+		(uuid "5f932ad0-c061-4f27-a7c2-b212be4cd884")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left mirror)
+		)
+	)
+	(property "p2" "p2"
+		(at 5.08 1.143 90)
+		(layer "B.SilkS")
+		(uuid "a7434782-1db1-49af-a400-12f5a8fdb7f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left mirror)
+		)
+	)
+	(property "p3" "p3"
+		(at 15.24 1.143 90)
+		(layer "B.SilkS")
+		(uuid "3cc4cedb-bbda-42c3-a0fe-b7e2f00401f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left mirror)
+		)
+	)
+	(property "p4" "p4"
+		(at 20.32 1.143 270)
+		(layer "B.SilkS")
+		(uuid "f8633f7a-6fcf-4736-b6cf-6070168bd695")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left mirror)
+		)
+	)
+	(property "p5" "p5"
+		(at 17.78 1.143 90)
+		(layer "B.SilkS")
+		(uuid "8f037608-7d6f-4ced-b9bc-d84c20dc8c4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left mirror)
 		)
 	)
 	(attr through_hole)
