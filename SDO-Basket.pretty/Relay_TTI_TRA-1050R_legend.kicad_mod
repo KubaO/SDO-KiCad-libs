@@ -1,4 +1,4 @@
-(footprint "Relay_TTI_TRA-1050R"
+(footprint "Relay_TTI_TRA-1050R_legend"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -62,6 +62,54 @@
 				(thickness 0.15)
 			)
 			(justify mirror)
+		)
+	)
+	(property "p1" "Pp1"
+		(at -2.54 19.05 90)
+		(layer "B.SilkS")
+		(uuid "900a371b-2634-49fa-ad88-150e6e61ce98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right mirror)
+		)
+	)
+	(property "p2" "Pp2"
+		(at 2.54 19.05 90)
+		(layer "B.SilkS")
+		(uuid "a2388b7d-07a0-4236-847b-d70157c2d501")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right mirror)
+		)
+	)
+	(property "p3" "Pp3"
+		(at 0 21.59 90)
+		(layer "B.SilkS")
+		(uuid "8b329bd1-626a-450e-9ea9-fb4c2697a27f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right mirror)
+		)
+	)
+	(property "p4" "Pp4"
+		(at 0 1.524 90)
+		(layer "B.SilkS")
+		(uuid "f89268e5-2ea3-4a8b-8f38-8bcdbe88fe50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left mirror)
 		)
 	)
 	(attr through_hole)
