@@ -1,4 +1,4 @@
-(footprint "DIN41612_C_3x32_Male_Horizontal_THT_Legend"
+(footprint "DIN41612_C_3x32_Male_Horizontal_THT_legend"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -52,7 +52,7 @@
 		)
 	)
 	(property "a1" "a1"
-		(at 0 -1.016 270)
+		(at 0 -1.016 90)
 		(layer "B.SilkS")
 		(uuid "867704fe-feb2-448e-8ccb-068d46a2b040")
 		(effects
@@ -532,7 +532,7 @@
 		)
 	)
 	(property "c10" "c10"
-		(at 22.86 6.096 270)
+		(at 22.86 6.096 90)
 		(layer "B.SilkS")
 		(uuid "ee3d836a-c122-4ddd-8105-f302f6d4c3bf")
 		(effects
@@ -808,7 +808,7 @@
 		)
 	)
 	(property "a32" "a32"
-		(at 78.74 -1.016 270)
+		(at 78.74 -1.016 90)
 		(layer "B.SilkS")
 		(uuid "bfd2f533-6532-493c-841f-9061c87dd8c4")
 		(effects
