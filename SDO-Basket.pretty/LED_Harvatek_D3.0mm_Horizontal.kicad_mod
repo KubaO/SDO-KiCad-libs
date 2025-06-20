@@ -191,7 +191,7 @@
 		(uuid "8126848f-e2fb-460d-bc88-2ca3b61a5759")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../SDO-KiCad-libs/SDO-Basket.pretty/LED_Harvatek_D3.0mm_Horizontal.stp"
+	(model "${KIPRJMOD}/../SDO-KiCad-libs/SDO-Basket.pretty/LED_Harvatek_D3.0mm_Horizontal.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -200,6 +200,17 @@
 		)
 		(rotate
 			(xyz 0 0 -90)
+		)
+	)
+	(model "${KIPRJMOD}/../../SDO-KiCad-libs/SDO-Basket.pretty/LED_Harvatek_D3.0mm_Horizontal.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
 		)
 	)
 )

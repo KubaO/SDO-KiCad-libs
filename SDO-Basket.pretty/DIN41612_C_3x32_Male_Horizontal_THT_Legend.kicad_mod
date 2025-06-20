@@ -2328,6 +2328,7 @@
 		)
 	)
 	(model "${KIPRJMOD}/../basket.pretty/86093967113755elf.stp"
+		(hide yes)
 		(offset
 			(xyz -7.4676 12.6238 -1.6)
 		)
@@ -2339,6 +2340,7 @@
 		)
 	)
 	(model "${KIPRJMOD}/../SDO-KiCad-libs/SDO-Basket.pretty/Conn_FCI_86093967113755elf.stp"
+		(hide yes)
 		(offset
 			(xyz -7.4676 12.6238 -1.6)
 		)
@@ -2347,6 +2349,18 @@
 		)
 		(rotate
 			(xyz 180 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/../../SDO-KiCad-libs/SDO-Basket.pretty/Conn_FCI_86093967113755elf.stp"
+		(hide yes)
+		(offset
+			(xyz -7.4676 12.6238 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 -0 -0)
 		)
 	)
 )
