@@ -1,4 +1,4 @@
-(footprint "Relay_DPST_Hamlin_HE722A0500_Legend"
+(footprint "Relay_DPST_Hamlin_HE722A0500_legend"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -6,7 +6,7 @@
 	(descr "package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf")
 	(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay")
 	(property "Reference" "REF**"
-		(at 3.81 -3.39 0)
+		(at 8.636 7.62 90)
 		(layer "F.SilkS")
 		(uuid "7c83d575-0a97-4001-9721-ff7ac1455d85")
 		(effects
@@ -14,9 +14,10 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify bottom)
 		)
 	)
-	(property "Value" "Relay_DPST_Hamlin_HE722A0500_Legend"
+	(property "Value" "Relay_DPST_Hamlin_HE722A0500_legend"
 		(at 3.81 18.63 0)
 		(layer "F.Fab")
 		(uuid "90a09b6e-0072-404a-b81d-e958c6ca746e")
@@ -54,7 +55,7 @@
 		)
 	)
 	(property "BotReference" "${REFERENCE}"
-		(at 3.81 7.62 90)
+		(at 3.81 7.62 180)
 		(layer "B.SilkS")
 		(uuid "dd58c2d7-9eae-45b4-90a2-b7af2e5c96a6")
 		(effects
@@ -65,56 +66,20 @@
 			(justify mirror)
 		)
 	)
-	(property "p1" "p1"
-		(at 0.762 0 0)
-		(layer "B.SilkS")
-		(uuid "cedfd4b2-61ce-4936-9113-1240e92aee5a")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify right mirror)
-		)
-	)
-	(property "p2" "p2"
-		(at 0.762 2.54 0)
-		(layer "B.SilkS")
-		(uuid "e705b650-14ff-4921-895f-d063fee77353")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify right mirror)
-		)
-	)
-	(property "p6" "p6"
-		(at 0.762 12.7 0)
-		(layer "B.SilkS")
-		(uuid "b217d64a-eca9-48bd-aeae-b578aebd45ef")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify right mirror)
-		)
-	)
-	(property "p7" "p7"
-		(at 0.762 15.24 0)
+	(property "p7" "Pp7"
+		(at -0.889 16.129 0)
 		(layer "B.SilkS")
 		(uuid "95654d4d-dc57-4938-b98f-a373787d154b")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.889 1)
 				(thickness 0.15)
 			)
-			(justify right mirror)
+			(justify right top mirror)
 		)
 	)
-	(property "p8" "p8"
-		(at 6.858 15.24 0)
+	(property "p8" "Pp8"
+		(at 8.509 16.129 0)
 		(layer "B.SilkS")
 		(uuid "ab1c47a8-9dfe-47ad-870d-a2d7f13324f5")
 		(effects
@@ -122,7 +87,7 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left mirror)
+			(justify left top mirror)
 		)
 	)
 	(property "p9" "p9"
@@ -151,16 +116,52 @@
 			(justify left mirror)
 		)
 	)
-	(property "p14" "p14"
-		(at 6.858 0 0)
+	(property "p14" "Pp14"
+		(at 8.509 -1.143 0)
 		(layer "B.SilkS")
 		(uuid "fcd18114-898b-4423-b82f-3397ad6f840f")
+		(effects
+			(font
+				(size 0.889 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(property "p6" "Pp6"
+		(at -0.889 11.557 0)
+		(layer "B.SilkS")
+		(uuid "b217d64a-eca9-48bd-aeae-b578aebd45ef")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left mirror)
+			(justify right bottom mirror)
+		)
+	)
+	(property "p2" "Pp2"
+		(at -0.889 3.556 0)
+		(layer "B.SilkS")
+		(uuid "e705b650-14ff-4921-895f-d063fee77353")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right top mirror)
+		)
+	)
+	(property "p1" "Pp1"
+		(at -0.889 -1.143 0)
+		(layer "B.SilkS")
+		(uuid "cedfd4b2-61ce-4936-9113-1240e92aee5a")
+		(effects
+			(font
+				(size 0.889 1)
+				(thickness 0.15)
+			)
+			(justify right bottom mirror)
 		)
 	)
 	(attr through_hole)

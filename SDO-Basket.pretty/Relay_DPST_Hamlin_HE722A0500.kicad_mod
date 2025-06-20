@@ -6,7 +6,7 @@
 	(descr "package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf")
 	(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay")
 	(property "Reference" "REF**"
-		(at 3.81 -3.39 0)
+		(at 8.636 7.62 90)
 		(layer "F.SilkS")
 		(uuid "7c83d575-0a97-4001-9721-ff7ac1455d85")
 		(effects
@@ -14,6 +14,7 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify bottom)
 		)
 	)
 	(property "Value" "Relay_DPST_Hamlin_HE722A0500"
@@ -54,7 +55,7 @@
 		)
 	)
 	(property "BotReference" "${REFERENCE}"
-		(at 3.81 -3.556 0)
+		(at 3.81 7.62 0)
 		(layer "B.SilkS")
 		(uuid "dd58c2d7-9eae-45b4-90a2-b7af2e5c96a6")
 		(effects
