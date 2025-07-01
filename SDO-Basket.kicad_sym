@@ -33271,6 +33271,18 @@
 					(type background)
 				)
 			)
+			(polyline
+				(pts
+					(xy -2.032 1.27) (xy -0.762 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(pin input line
 				(at -5.08 0 0)
 				(length 2.54)
