@@ -327,7 +327,7 @@
 	(pad "8" thru_hole oval
 		(at 17.78 0 90)
 		(size 1.9812 1.9812)
-		(drill 1
+		(drill 0.762
 			(offset 0.0762 0)
 		)
 		(layers "*.Cu" "*.Mask")
@@ -367,7 +367,7 @@
 	(pad "16" thru_hole oval
 		(at 0 -7.62 90)
 		(size 1.9812 1.9812)
-		(drill 1
+		(drill 0.762
 			(offset -0.0762 0)
 		)
 		(layers "*.Cu" "*.Mask")
