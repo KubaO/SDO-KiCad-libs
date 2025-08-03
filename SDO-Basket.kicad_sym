@@ -9848,7 +9848,7 @@
 			)
 		)
 		(property "LI_{GRN}" "20 mcd @ 10mA"
-			(at 0 0 0)
+			(at 0 15.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9857,7 +9857,7 @@
 			)
 		)
 		(property "LI_{RED}" "15 mcd @ 10mA"
-			(at 0 0 0)
+			(at 0 17.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10017,46 +10017,6 @@
 		)
 		(symbol "Display_Dialight_571-0112F_1_0"
 			(pin passive line
-				(at 3.81 0 180)
-				(length 2.54)
-				(name "A1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Display_Dialight_571-0112F_1_1"
-			(pin passive line
-				(at -3.81 0 0)
-				(length 2.54)
-				(name "K1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Display_Dialight_571-0112F_1_2"
-			(pin passive line
 				(at -3.81 0 0)
 				(length 2.54)
 				(name "K1"
@@ -10204,7 +10164,7 @@
 			)
 		)
 		(property "IRED_{max}" "30 mA"
-			(at 0 0 0)
+			(at 0 14.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10213,7 +10173,7 @@
 			)
 		)
 		(property "IYEL_{max}" "30 mA"
-			(at 0 0 0)
+			(at 0 15.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10222,7 +10182,7 @@
 			)
 		)
 		(property "V_{F}" "2.0V @ 20mA"
-			(at 0 0 0)
+			(at -0.254 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10231,7 +10191,7 @@
 			)
 		)
 		(property "LI_{RED}" "15mcd @ 10mA"
-			(at 0 0 0)
+			(at 0 10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10240,7 +10200,7 @@
 			)
 		)
 		(property "LI_{YEL}" "8mcd @ 10mA"
-			(at 0 0 0)
+			(at 0 12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10400,46 +10360,6 @@
 		)
 		(symbol "Display_Dialight_571-0113-100F_1_0"
 			(pin passive line
-				(at 3.81 0 180)
-				(length 2.54)
-				(name "A1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Display_Dialight_571-0113-100F_1_1"
-			(pin passive line
-				(at -3.81 0 0)
-				(length 2.54)
-				(name "K1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Display_Dialight_571-0113-100F_1_2"
-			(pin passive line
 				(at -3.81 0 0)
 				(length 2.54)
 				(name "K1"
@@ -10587,7 +10507,7 @@
 			)
 		)
 		(property "IGRN_{max}" "25 mA"
-			(at 0 0 0)
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10596,7 +10516,7 @@
 			)
 		)
 		(property "V_{F}" "2.0V @ 20mA"
-			(at 0 0 0)
+			(at 0 9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10605,7 +10525,7 @@
 			)
 		)
 		(property "LI_{GRN}" "20mcd @ 10mA"
-			(at 0 0 0)
+			(at 0 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10764,46 +10684,6 @@
 			)
 		)
 		(symbol "Display_Dialight_571-0122F_1_0"
-			(pin passive line
-				(at 3.81 0 180)
-				(length 2.54)
-				(name "A1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Display_Dialight_571-0122F_1_1"
-			(pin passive line
-				(at -3.81 0 0)
-				(length 2.54)
-				(name "K1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Display_Dialight_571-0122F_1_2"
 			(pin passive line
 				(at -3.81 0 0)
 				(length 2.54)
@@ -10970,7 +10850,7 @@
 			)
 		)
 		(property "LI_{YEL}" "8mcd @ 10mA"
-			(at 0 0 0)
+			(at 0 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11121,46 +11001,6 @@
 			)
 		)
 		(symbol "Display_Dialight_571-0133F_1_0"
-			(pin passive line
-				(at 3.81 0 180)
-				(length 2.54)
-				(name "A1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Display_Dialight_571-0133F_1_1"
-			(pin passive line
-				(at -3.81 0 0)
-				(length 2.54)
-				(name "K1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Display_Dialight_571-0133F_1_2"
 			(pin passive line
 				(at -3.81 0 0)
 				(length 2.54)
